@@ -154,5 +154,35 @@
         <div class="blue"></div>
       </div>
     </footer>
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal-close">
+          <svg class="icon-close">
+            <use href="./symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <form class="form">
+          <div class="input-container">
+            <label class="form-label">
+              <span class="label-text">Ім’я</span>
+              <input class="form-input" type="text" />
+            </label>
+            <label class="form-label">
+              <span class="label-text">Email</span>
+              <span class="input-wrap">
+                <input class="form-input" type="text" />
+                <svg class="envelop">
+                  <use href="./symbol-defs.svg#icon-envelop"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <button class="modal-button" type="submit">
+            <span class="button__text">Приєднатися до клану</span>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- <script type="module" src="./index.js"></script> -->
   </body>
 </html>
