@@ -1,10 +1,14 @@
+:root {
+  --accent-color: #333333;
+}
+
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?9c5osm');
-  src:  url('fonts/icomoon.eot?9c5osm#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?9c5osm') format('truetype'),
-    url('fonts/icomoon.woff?9c5osm') format('woff'),
-    url('fonts/icomoon.svg?9c5osm#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?9c5osm");
+  src: url("fonts/icomoon.eot?9c5osm#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?9c5osm") format("truetype"),
+    url("fonts/icomoon.woff?9c5osm") format("woff"),
+    url("fonts/icomoon.svg?9c5osm#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +16,7 @@
 
 .icon {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
