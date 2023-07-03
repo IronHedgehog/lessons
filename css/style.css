@@ -1,0 +1,30 @@
+:root {
+  --accent-color: green;
+}
+
+#A {
+  color: red;
+}
+#A #B {
+  color: green;
+}
+#A #B #C span {
+  color: aqua;
+}
+
+.link {
+  color: green;
+}
+.link:hover {
+  color: brown;
+}
+@media screen and (min-width: 768px) {
+  .link {
+    color: white;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .link {
+    color: black;
+  }
+}
