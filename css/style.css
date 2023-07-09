@@ -1,30 +1,43 @@
-:root {
-  --accent-color: green;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
-#A {
-  color: red;
-}
-#A #B {
-  color: green;
-}
-#A #B #C span {
-  color: aqua;
+a {
+  text-decoration: none;
 }
 
-.link {
-  color: green;
+ul,
+ol {
+  list-style: none;
 }
-.link:hover {
-  color: brown;
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  border: 5px solid red;
 }
-@media screen and (min-width: 768px) {
-  .link {
-    color: white;
-  }
+
+.button {
+  color: #fff;
+  background-color: #000;
+  border: 5px solid white;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 20px 30px;
 }
-@media screen and (min-width: 1200px) {
-  .link {
-    color: black;
-  }
+
+.buttonB {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: none;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 20px 30px;
 }
