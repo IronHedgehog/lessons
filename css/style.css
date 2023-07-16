@@ -24,6 +24,22 @@ ol {
   letter-spacing: 0.42px;
 }
 
+.block-container, .buttonn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error, .success {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid red;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 20px 30px;
+}
+
 .list {
   display: flex;
   justify-content: center;
@@ -58,4 +74,49 @@ ol {
   font-size: 20px;
   font-weight: 900;
   padding: 20px 30px;
+}
+
+.buttonn {
+  background-color: grey;
+  gap: 30px;
+}
+
+.success {
+  color: white;
+  background-color: green;
+}
+
+.error {
+  color: white;
+  background-color: red;
+}
+
+.block, .yellow-block, .green-block {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+}
+@media screen and (min-width: 320px) {
+  .block, .yellow-block, .green-block {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.green-block {
+  background-color: green;
+}
+@media screen and (min-width: 1200px) {
+  .green-block {
+    background-color: red;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .green-block {
+    width: 100px;
+  }
+}
+
+.yellow-block {
+  background-color: yellow;
 }
