@@ -70,3 +70,30 @@ html {
 // @mixin timeUP(){
 //     kajf;ajdd;ds;
 // }
+
+.list {
+  display: flex;
+}
+
+.list-item:not(:last-child) {
+  width: 300px;
+
+  padding: 20px;
+
+  // background-color: red;
+
+  border: 5px dotted yellow;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+
+  margin: 15px 20px 30px 40px;
+}
+
+.input {
+  // display: inline-block;
+
+  // width: 100px;
+  // height: 300px;
+}

@@ -3,29 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <main>
-      <section class="hero">
-        <div class="container"></div>
-      </section>
+      <picture>
+        <source
+          srcset="
+            ./img/our-team/mixa/First-desktop-1x.jpg 1x,
+            ./img/our-team/mixa/First-desktop-2x.jpg 2x
+          "
+          media="(min-width:1200px)"
+        />
+        <source
+          srcset="
+            ./img/our-team/mixa/First-tablet-1x.jpg 1x,
+            ./img/our-team/mixa/First-tablet-2x.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            ./img/our-team/mixa/First-phone-1x.jpg 1x,
+            ./img/our-team/mixa/First-phone-2x.jpg 2x
+          "
+          media="(min-width:0px)"
+        />
+        <img
+          src="./img/our-team/mixa/First-phone-1x.jpg"
+          alt="фото співробітника"
+        />
+      </picture>
     </main>
-    <!-- <div class="div"></div>
-
-    <input type="text" class="input" />
-
-    <div style="font-size: 40px">
-      <p class="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        dignissimos accusantium ipsam deserunt? Illo ducimus tempore sint rerum
-        blanditiis accusantium doloremque delectus quasi, dolores magnam? Alias
-        quisquam deleniti modi dolorum? Excepturi omnis iusto, accusamus natus
-        blanditiis expedita aliquid enim dolor soluta odit nam error. Eos quam
-        nobis fugit, minus odit, doloribus culpa dolorum magnam qui obcaecati
-        cum reiciendis eum ipsam?
-      </p>
-    </div> -->
   </body>
 </html>
