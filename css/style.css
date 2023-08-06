@@ -9,6 +9,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(0, 16, 36);
+  background: linear-gradient(153deg, rgb(0, 16, 36) 21%, rgb(102, 121, 9) 40%, rgb(1, 0, 255) 69%, rgb(234, 255, 0) 77%);
 }
 
 .div::after {
@@ -90,5 +92,38 @@ html {
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: url(../../img/hero-2x.jpg);
+  }
+}
+
+.heroo {
+  height: 1000px;
+  background-image: url(../../img/hero-desk-1x.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-device-pixel-ratio: 2x), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+  .heroo {
+    background-image: url(../../img/Hero-desk-2x.webp);
+  }
+}
+@media (max-width: 1199px) {
+  .heroo {
+    background-image: url(../../img/tablet-1x.webp);
+  }
+}
+@media (max-width: 1199px) and (min-device-pixel-ratio: 2x), (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1199px) and (min-resolution: 2dppx), (max-width: 1199px) and (min-resolution: 192dpi) {
+  .heroo {
+    background-image: url(../../img/tablet-2x.webp);
+  }
+}
+@media (max-width: 767px) {
+  .heroo {
+    background-image: url(../../img/phone-1x.webp);
+  }
+}
+@media (max-width: 767px) and (min-device-pixel-ratio: 2x), (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (min-resolution: 2dppx), (max-width: 767px) and (min-resolution: 192dpi) {
+  .heroo {
+    background-image: url(../../img/phone-2x.webp);
   }
 }

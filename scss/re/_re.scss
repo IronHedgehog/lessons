@@ -11,6 +11,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(0, 16, 36);
+  background: linear-gradient(
+    153deg,
+    rgba(0, 16, 36, 1) 21%,
+    rgba(102, 121, 9, 1) 40%,
+    rgba(1, 0, 255, 1) 69%,
+    rgba(234, 255, 0, 1) 77%
+  );
 }
 
 .div::after {
